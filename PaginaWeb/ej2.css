@@ -1,0 +1,62 @@
+/* Estilo para el cuerpo de la página */
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(228, 248, 51);
+    margin: auto;
+    padding: auto;
+}
+
+/* Estilo para el titulo*/
+
+.titulo {
+    color: rgb(3, 16, 133);
+    font-size: 25px;
+    margin-top: 10;
+    text-align: left;
+}
+
+.titulo2 {
+    color: rgb(3, 16, 133);
+    font-size: 45px;
+    margin-top: 10;
+    text-align: center;
+}
+
+.titulo3 {
+    color: rgb(3, 16, 133);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/* Estilo para parrafo */
+
+.parrafo {
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Estilo para centrar verticalmente el contenido en la tarjeta */
+.card-vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Estilo para volver a inicio de pyv */
+
+.volver {
+    background-color: rgb(228, 248, 51);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: 40px auto;
+    padding: 15px;
+}
+
+.navbar {
+    background-color: yellow;
+}
